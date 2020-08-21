@@ -1,14 +1,22 @@
 {
   "name": "gatsby-starter-plugin",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A minimal boilerplate for the essential files Gatsby looks for in a plugin",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "patch": "yarn version --patch",
+    "minor": "yarn version --minor",
+    "major": "yarn version --major",
+    "test": ""
+  },
   "keywords": [
     "gatsby",
-    "gatsby-plugin"
+    "gatsby-plugin",
+    "aws",
+    "s3",
+    "source-s3"
   ],
-  "author": "Kyle Gill <kyle.robert.gill@gmail.com>",
+  "author": "jjzajac",
   "license": "0BSD",
   "dependencies": {
     "aws-sdk": "^2.738.0",
