@@ -1,16 +1,18 @@
 {
   "name": "gatsby-starter-plugin",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "A minimal boilerplate for the essential files Gatsby looks for in a plugin",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"No build script setup\""
-  },
+  "scripts": {},
   "keywords": [
     "gatsby",
     "gatsby-plugin"
   ],
   "author": "Kyle Gill <kyle.robert.gill@gmail.com>",
-  "license": "0BSD"
+  "license": "0BSD",
+  "dependencies": {
+    "aws-sdk": "^2.738.0",
+    "axios": "^0.20.0",
+    "gray-matter": "^4.0.2"
+  }
 }
