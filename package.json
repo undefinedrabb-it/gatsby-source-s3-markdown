@@ -1,23 +1,25 @@
 {
-  "name": "gatsby-starter-plugin",
-  "version": "1.0.0",
+  "name": "gatsby-source-s3-markdown",
+  "version": "0.0.1",
   "description": "A minimal boilerplate for the essential files Gatsby looks for in a plugin",
+  "author": "jjzajac",
+  "license": "0BSD",
   "main": "index.js",
-  "scripts": {
-    "patch": "yarn version --patch",
-    "minor": "yarn version --minor",
-    "major": "yarn version --major",
-    "test": ""
-  },
   "keywords": [
     "gatsby",
     "gatsby-plugin",
     "aws",
     "s3",
-    "source-s3"
+    "source-s3",
+    "markdown"
   ],
-  "author": "jjzajac",
-  "license": "0BSD",
+  "scripts": {
+    "build":"",
+    "patch": "yarn version --patch",
+    "minor": "yarn version --minor",
+    "major": "yarn version --major",
+    "test": ""
+  },
   "dependencies": {
     "aws-sdk": "^2.738.0",
     "axios": "^0.20.0",
